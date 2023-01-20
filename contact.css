@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    /* color: #777; */
+    font-size: 18px;
+    font-weight: 400;
+    font-family: opensans, sans-serif;
+    line-height: 21px;
+}
+
+#nav {
+    width: auto;
+    height: 75px;
+    align-items: center;
+
+}
+
+.navli {
+    list-style: none;
+
+
+}
+
+.a {
+    padding-left: 35px;
+    text-decoration: none;
+    color: #353535;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+.container {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.navd {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.h1 {
+    background-image: url("Rogue_Press-Release_608x436\ 1.png");
+    height: 664px;
+    background-size: cover;
+}
+
+.p1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 332px;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.df {
+    width: 420px;
+    height: 583px;
+    margin-top: 100px;
+    margin-left: 77px;
+}
+
+.h2 {
+    font-size: 48px;
+    font-weight: normal;
+    color: #353535;
+}
+
+.p2 {
+    font-size: 16px;
+    line-height: 0px;
+    padding-top: 11px;
+    color: #353535;
+}
+
+.inp {
+    width: 420px;
+    height: 48px;
+    background-color: #f1f1f1;
+    border: none;
+    color: #353535;
+    font-size: 16px;
+}
+
+.inp1 {
+    width: 420px;
+    height: 100px;
+    background-color: #f1f1f1;
+    border: none;
+    text-align: start;
+    font-size: 16px;
+
+}
+
+.sbtn:hover {
+    background-color: #fff;
+    color: #353535;
+    border: 1px solid #000;
+}
+
+.sbtn {
+    width: 164px;
+    height: 50px;
+    text-align: center;
+    background-color: #353535;
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 13px;
+    margin-left: 9px;
+
+}
+
+.container2 {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ftr {
+    background-color: #353535;
+    width: auto;
+    height: 400px;
+    color: #FFF;
+    margin-top: -5px;
+}
+
+.ul {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 68px;
+    padding-left: 0px;
+}
+
+.navli1 {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    justify-content: space-between;
+    margin-top: 28px;
+    font-weight: normal;
+
+
+}
+
+.navli1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navli1_1 {
+    font-size: 16px;
+    color: #353535;
+    width: 392px;
+    height: 50px;
+    margin-top: -25px;
+
+
+}
+
+.fbtn:hover {
+    background-color: #353535;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.fbtn {
+    width: 152px;
+    height: 51px;
+    text-align: center;
+    background-color: #fff;
+    color: #353535;
+    border: 0px;
+    font-size: 16px;
+}
+
+.fimg {
+    padding-right: 32px;
+}

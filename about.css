@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    /* color: #777; */
+    font-size: 18px;
+    font-weight: 400;
+    font-family: opensans, sans-serif;
+    line-height: 21px;
+}
+
+#nav {
+    width: auto;
+    height: 75px;
+    align-items: center;
+
+
+}
+
+.navli {
+    list-style: none;
+
+
+}
+
+.a {
+    padding-left: 35px;
+    text-decoration: none;
+    color: #353535;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 30px;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+.container {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.navd {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.h1 {
+    background-image: url("for_3\ 1.png");
+    height: 664px;
+    background-size: cover;
+}
+
+.p1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #FFF;
+    padding-top: 332px;
+    position: absolute;
+}
+
+.ban {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ban1 {
+    line-height: 41px;
+    width: 290px;
+    margin-top: 173px;
+
+}
+
+.h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ban2 {
+    font-size: 16px;
+    width: 390px;
+    margin-top: 173px;
+    margin-left: 140px;
+}
+
+.ban3 {
+    font-size: 16px;
+    width: 390px;
+    margin-top: 173px;
+    margin-left: 40px;
+}
+
+.iban {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 145px;
+}
+
+.container2 {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ftr {
+    background-color: #353535;
+    width: auto;
+    height: 400px;
+    color: #FFF;
+    margin-top: 107px;
+}
+
+.ul {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 68px;
+    padding-left: 0px;
+}
+
+.navli1 {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    justify-content: space-between;
+    margin-top: 28px;
+    font-weight: normal;
+
+
+}
+
+.navli1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navli1_1 {
+    font-size: 16px;
+    color: #353535;
+    width: 392px;
+    height: 50px;
+    margin-top: -25px;
+
+
+}
+
+.fbtn:hover {
+    background-color: #353535;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.fbtn {
+    width: 152px;
+    height: 51px;
+    text-align: center;
+    background-color: #fff;
+    color: #353535;
+    border: 0px;
+    font-size: 16px;
+}
+
+.fimg {
+    padding-right: 32px;
+    
+}

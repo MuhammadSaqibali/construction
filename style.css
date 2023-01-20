@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    /* color: #777; */
+    font-size: 18px;
+    font-weight: 400;
+    font-family: opensans, sans-serif;
+    line-height: 21px;
+}
+
+.container {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+
+
+
+}
+
+.navd {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    height: 75px;
+}
+
+#nav {
+    /* margin: 0px; */
+    height: 75px;
+    width: auto;
+    margin-bottom: -40px;
+    align-items: center;
+
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.navli {
+    list-style: none;
+    /* font-size: 16px;
+    color: #353535;
+    display: flex; */
+
+}
+
+/* .home {
+    margin-left: 818px;
+    width: 391px;
+    height: 75px;
+
+
+} */
+
+.a {
+    text-decoration: none;
+    color: #353535;
+    padding-left: 35px;
+    font-size: 16px;
+}
+
+.h1 {
+    background-image: url("crane-building-under-construction-against-600w-1907240056 1.png");
+    height: 664px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.quote {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 238px;
+    color: #FFF;
+    padding-left: 242px;
+    line-height: 81px;
+}
+
+.qbtn {
+    width: 339px;
+    height: 80px;
+    text-align: center;
+    background-color: #353535;
+    color: #FFF;
+    font-size: 35px;
+
+    margin-top: 73px;
+    margin-left: 437px;
+}
+
+.qbtn:hover {
+    background-color: #fff;
+    color: #353535;
+    border: 1px solid #000;
+}
+
+.p1 {
+    font-size: 40px;
+    /* margin: 53px auto; */
+    color: #353535;
+    margin-top: 53px;
+    margin-left: 437px;
+    margin-bottom: 37px;
+}
+
+.s {
+    position: absolute;
+    margin-top: 37px;
+    color: #353535;
+    display: flex;
+    max-width: 1250px;
+}
+
+.s1 {
+    width: 392px;
+    height: 367px;
+    color: #353535;
+    position: relative;
+
+}
+
+.h1s1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.p1s1 {
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h1s2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.p1s2 {
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h1s3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.p1s3 {
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.s2 {
+    width: 392px;
+    height: 367px;
+    position: relative;
+    margin-left: 37px;
+    margin-right: 37px;
+
+}
+
+.s3 {
+    width: 392px;
+    height: 367px;
+    position: relative;
+}
+
+.sbtn:hover {
+    background-color: #fff;
+    color: #353535;
+    border: 1px solid #000F;
+}
+
+.sbtn {
+    width: 185px;
+    height: 50px;
+    text-align: center;
+    background-color: #353535;
+    color: #FFF;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 648px;
+    margin-left: 532px;
+
+}
+
+.p2 {
+    font-size: 40px;
+    margin-top: 786px;
+    color: #353535;
+    margin-left: 407px;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.container1 {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+.p3 {
+    width: auto;
+    height: 400px;
+    background-color: #EEF3F9;
+    text-align: center;
+
+
+}
+
+.p3p1 {
+    padding-top: 125px;
+    padding-left: 257px;
+    padding-right: 257px;
+    color: #353535;
+}
+
+.p3p2 {
+    padding-top: 39px;
+    padding-left: 257px;
+    padding-right: 257px;
+    color: #353535;
+}
+
+.dbtn:hover {
+    background-color: #fff;
+    color: #353535;
+    border: 1px solid #000;
+}
+
+.dbtn {
+    width: 219px;
+    height: 50px;
+    text-align: center;
+    background-color: #353535;
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 51px;
+    margin-left: 515px;
+    margin-bottom: 45px;
+}
+
+
+
+.p4 {
+    font-size: 40px;
+    line-height: 54px;
+    color: #353535;
+    font-family: opensans;
+}
+
+.p4p {
+    font-size: 16px;
+    padding-right: 152px;
+}
+
+.con {
+    width: 496px;
+    height: 432px;
+
+    margin-top: 124px;
+}
+
+.conimg {
+    margin-top: 124px;
+}
+
+.cbtn:hover {
+    background-color: #fff;
+    color: #353535;
+    border: 1px solid #000;
+}
+
+.cbtn {
+    width: 164px;
+    height: 50px;
+    text-align: center;
+    background-color: #353535;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 11px;
+}
+
+.container2 {
+    width: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ftr {
+    background-color: #353535;
+    width: auto;
+    height: 400px;
+    color: #FFF;
+    margin-top: 107px;
+}
+
+.ul {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 68px;
+    padding-left: 0px;
+}
+
+.navli1 {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    justify-content: space-between;
+    margin-top: 28px;
+    font-weight: normal;
+
+
+}
+
+.navli1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navli1_1 {
+    font-size: 16px;
+    color: #353535;
+    width: 392px;
+    height: 50px;
+    margin-top: -25px;
+
+
+}
+
+.fbtn:hover {
+    background-color: #353535;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.fbtn {
+    width: 152px;
+    height: 51px;
+    text-align: center;
+    background-color: #fff;
+    color: #353535;
+    border: 0px;
+    font-size: 16px;
+}
+
+.fimg {
+    padding-right: 32px;
+}

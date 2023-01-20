@@ -1,0 +1,203 @@
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background:#636e72;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#header{
+    color: #fff;
+    background-color:#636e72;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #2d3436;
+}
+#logo{
+    font-size: 2 rem;
+    margin-top: 5px;
+}
+#banner{
+    background: url('crane-building-under-construction-against-600w-1907240056 1.png') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 15rem;
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(99, 110, 114,0.7);
+    padding: 10px;
+
+}
+.service-box{
+    text-align: center;
+
+}
+.service-box i.fa{
+    color: #636e72;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#testimonial{
+    color: #fff;
+    background: url('Rogue_Press-Release_608x436 1.png') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px auto;
+    position: relative;
+}
+#testimonial:before{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(99, 110, 114,0.4  );
+        content: "";
+}
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post h3{
+    font-size: 1.3rem;
+}
+.news-post h3 a{
+    color: #636e72;
+}
+.post-date{
+font-size: 13px;
+margin-bottom: 2px;
+}
+.post-date:before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+a.readmore{
+    font-size: 14px;
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+#footer-sidebar{
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4:after{
+    content: "";
+    background:#fff;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 5px 0;
+}
+.footer-widget a{
+    color: #fff;
+    text-decoration: none;
+}
+.l-l-news{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.l-l-news li{
+    margin-bottom: 3px;
+}
+.l-l-news li:before{
+    content: "\f054";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+#footer{
+    color: #fff;
+    background: #2d3436;
+    padding: 10px 0;
+}
+.social-icon{
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon li{
+    display: inline;
+    padding-left: 5px;
+}
+.social-icon li a{
+    color: #fff;
+}
+@media (max-width:992px) {
+    .news-post{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:768px) {
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+    }
+    .banner-title{
+        padding-top: 20px;
+    }
+    .banner-title h1{
+        font-size: 1.7rem;
+    }
+    .testimonial{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+    .news-post{
+        margin-bottom: 30px;
+    }
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    .social-icon{
+        margin-top: 10px;
+    }
+}
